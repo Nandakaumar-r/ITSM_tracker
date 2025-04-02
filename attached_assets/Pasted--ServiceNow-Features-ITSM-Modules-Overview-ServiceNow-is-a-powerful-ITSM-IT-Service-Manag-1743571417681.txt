@@ -1,0 +1,114 @@
+### **ServiceNow Features & ITSM Modules Overview**
+ServiceNow is a powerful ITSM (IT Service Management) platform that helps manage IT processes efficiently. Below are the **key modules and features** relevant to Incident, Request, Problem, and Change Management.
+
+---
+
+## **1️⃣ Incident Management**
+Incident Management helps in **logging, tracking, and resolving IT issues** to restore services as quickly as possible.
+
+### **🔹 Incident Creation Form Details**
+The **Incident Form** captures essential details such as:
+- **Incident Number** (Auto-generated)
+- **Caller (User Reporting the Issue)**
+- **Short Description**
+- **Detailed Description**
+- **Category** (e.g., Hardware, Software, Network, Security)
+- **Subcategory** (e.g., Laptop Issue, Application Crash)
+- **Priority** (High, Medium, Low – based on impact & urgency)
+- **Status** (New, In Progress, On Hold, Waiting for User, Resolved, Closed)
+- **Assignment Group** (Team handling the incident)
+- **Assigned To** (Technician or Engineer handling it)
+- **Resolution Notes**
+- **Attachments** (Screenshots, logs, error messages)
+
+### **Incident Lifecycle (Status Updates)**
+1. **New** → Ticket is created  
+2. **In Progress** → Assigned to a technician  
+3. **On Hold** → Waiting for vendor/customer response  
+4. **Waiting for Reply** → Pending more details from the user  
+5. **Resolved** → Issue is fixed, and verification is done  
+6. **Closed** → Incident is formally closed  
+
+---
+
+## **2️⃣ Service Request Management**
+Service Request is used for **standard requests like software access, hardware upgrades, password resets, etc.**  
+
+### **🔹 Service Request Form Details**
+- **Request Number** (Auto-generated)
+- **Requester Name**
+- **Request Type** (Hardware, Software, Access, IT Services)
+- **Item Requested** (Specific service needed)
+- **Justification**
+- **Approval Status** (Pending, Approved, Rejected)
+- **Fulfillment Team**
+- **Delivery Date**
+- **Attachments** (Documents, approvals)
+
+### **Request Lifecycle**
+1. **Submitted** → User submits the request  
+2. **Pending Approval** → Needs manager or IT approval  
+3. **Approved** → IT team starts processing  
+4. **Fulfilled** → Request is completed and delivered  
+5. **Closed** → User confirms completion  
+
+---
+
+## **3️⃣ Problem Management**
+Problem Management **identifies and resolves the root cause of recurring incidents** to prevent future occurrences.
+
+### **🔹 Problem Form Details**
+- **Problem Number** (Auto-generated)
+- **Problem Title**
+- **Associated Incidents** (Linked recurring incidents)
+- **Root Cause Analysis (RCA)**
+- **Impact Assessment**
+- **Temporary Workaround**
+- **Permanent Fix Plan**
+- **Priority** (Critical, High, Medium, Low)
+- **Status** (New, Analysis, Pending Change, Resolved, Closed)
+
+### **Problem Lifecycle**
+1. **New** → Problem ticket is created  
+2. **Analysis** → RCA is performed  
+3. **Pending Change** → If a fix requires a change request  
+4. **Resolved** → Root cause fixed  
+5. **Closed** → Monitoring confirms no recurrence  
+
+---
+
+## **4️⃣ Change Management**
+Change Management **ensures controlled changes to IT infrastructure with minimal risk**.
+
+### **🔹 Change Request Form Details**
+- **Change Number** (Auto-generated)
+- **Change Type** (Normal, Emergency, Standard)
+- **Description of Change**
+- **Reason for Change**
+- **Business Impact**
+- **Risk Level** (Low, Medium, High)
+- **Affected Systems**
+- **Planned Start & End Date**
+- **Approver Details**
+- **Rollback Plan**
+- **Implementation Plan**
+- **Testing Plan**
+
+### **Change Lifecycle**
+1. **New** → Change request is submitted  
+2. **Approval Required** → IT manager or CAB (Change Advisory Board) reviews  
+3. **Approved** → Implementation starts  
+4. **In Progress** → Change is being applied  
+5. **Testing & Validation** → Ensuring no negative impact  
+6. **Completed** → Change is fully implemented  
+7. **Closed** → Successful and confirmed  
+
+---
+
+## **🎯 Summary**
+🔹 **Incident Management** – Fix IT issues quickly  
+🔹 **Service Request Management** – Handle IT service requests  
+🔹 **Problem Management** – Identify and eliminate recurring issues  
+🔹 **Change Management** – Ensure controlled infrastructure changes  
+
+Would you like **workflow automation or integration** suggestions for any of these modules? 🚀

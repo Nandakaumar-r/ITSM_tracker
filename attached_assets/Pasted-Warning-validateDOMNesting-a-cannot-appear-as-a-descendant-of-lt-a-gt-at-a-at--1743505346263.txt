@@ -1,0 +1,56 @@
+Warning: validateDOMNesting(...): <a> cannot appear as a descendant of &lt;a&gt;.
+    at a
+    at a
+    at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a1b5b850:337:18
+    at SidebarIcon (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/sidebar.tsx:30:9)
+    at div
+    at div
+    at Sidebar (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/sidebar.tsx:59:22)
+    at div
+    at Router
+    at QueryClientProvider (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=cc944349:2805:3)
+    at App
+Cell is not defined
+Cell is not defined
+The above error occurred in the <TicketPriorityChart> component:
+
+    at TicketPriorityChart (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/charts/ticket-priority-chart.tsx:20:32)
+    at div
+    at div
+    at _c9 (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/ui/card.tsx:20:11)
+    at div
+    at div
+    at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RLTE5R7I.js?v=e31fb1f7:41:13
+    at Presence (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5KJT6J3C.js?v=e31fb1f7:24:11)
+    at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=4f58e779:448:13
+    at _c5 (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/ui/tabs.tsx:72:12)
+    at div
+    at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RLTE5R7I.js?v=e31fb1f7:41:13
+    at Provider (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LSQNWB54.js?v=e31fb1f7:38:15)
+    at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=4f58e779:326:7
+    at div
+    at Reports (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/pages/reports.tsx:42:37)
+    at Route (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a1b5b850:323:16)
+    at Switch (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a1b5b850:379:17)
+    at main
+    at div
+    at div
+    at Router
+    at QueryClientProvider (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=cc944349:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Cell is not defined
+at https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/charts/ticket-priority-chart.tsx:128:17
+at Array.map (<anonymous>)
+at TicketPriorityChart (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/src/components/charts/ticket-priority-chart.tsx:126:28)
+at renderWithHooks (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:11548:26)
+at mountIndeterminateComponent (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:14926:21)
+at beginWork (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:15914:22)
+at beginWork$1 (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:19753:22)
+at performUnitOfWork (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:19198:20)
+at workLoopSync (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:19137:13)
+at renderRootSync (https://fe5d8265-1168-4e5a-b2cc-015e756e85ad-00-2onfu8klntlwq.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=e31fb1f7:19116:15)

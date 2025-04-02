@@ -1,0 +1,85 @@
+### **How ServiceNow Handles Users and Technicians**  
+
+ServiceNow **categorizes users** based on their roles and responsibilities. The platform ensures that **end-users, technicians, and administrators** have appropriate access to perform their tasks.
+
+---
+
+## **1️⃣ User Roles & Access Management**
+ServiceNow controls **who can access what** through **user roles and permissions**. Below are the primary user categories:
+
+| **User Type**       | **Role & Responsibility**                                  |
+|---------------------|----------------------------------------------------------|
+| **End Users (Employees/Requesters)** | Create incidents, request services, check status, and receive notifications. |
+| **IT Technicians (Support Agents)** | Work on tickets (Incidents, Requests, Problems, Changes). |
+| **IT Admins (Managers, Approvers)** | Approve changes, assign tickets, and manage workflows. |
+| **ServiceNow Administrators** | Full access to configure and customize the platform. |
+
+### **🔹 User Profiles**
+Each user has a profile stored in the **User Table (sys_user)** that includes:
+- **User ID**
+- **Email**
+- **Department**
+- **Role(s) Assigned**
+- **Manager Name**
+- **Group Memberships** (Support groups, Approval groups)
+- **Login Credentials (for authentication)**
+
+---
+
+## **2️⃣ Handling Users (End Users)**
+End users interact with ServiceNow **via the Self-Service Portal** to:
+- Report **Incidents**
+- Submit **Service Requests**
+- Track their ticket **status**
+- View **knowledge base articles** for self-help
+- Receive **automated notifications** (ticket updates)
+
+🔹 **Authentication**: Users can log in via **LDAP, SSO (Single Sign-On), or Active Directory** integration.  
+🔹 **Restricted Access**: End users **cannot view or modify** other users' tickets (only their own).
+
+---
+
+## **3️⃣ Handling Technicians (Support Agents)**
+Technicians handle **Incidents, Requests, Problems, and Changes**.
+
+### **🔹 Technician Access**
+- **Assigned Tickets** → View and update incidents assigned to them.
+- **Work Notes** → Add internal notes visible only to IT teams.
+- **Ticket Escalation** → Escalate tickets to higher support levels.
+- **Service Level Agreement (SLA) Tracking** → Ensure response & resolution times.
+- **Collaboration** → Use comments, email updates, and knowledge articles.
+
+Technicians are grouped into **Assignment Groups** (e.g., Network Support, Application Support, Hardware Support).
+
+---
+
+## **4️⃣ Managing Assignments (Ticket Routing)**
+ServiceNow **automates ticket assignments** based on:
+1. **Round-Robin Assignment** → Assigns tickets to technicians in rotation.
+2. **Skill-Based Assignment** → Assigns tickets to technicians with relevant skills.
+3. **Manual Assignment** → Admins manually assign tickets.
+4. **Auto-Routing via Rules** → Based on issue type, priority, or location.
+
+---
+
+## **5️⃣ Managing Approvals (For Requests & Changes)**
+- **Manager Approvals** → Needed for software access, hardware requests.
+- **Change Advisory Board (CAB) Approvals** → For major IT changes.
+- **Automated Approvals** → Pre-configured workflows auto-approve based on rules.
+
+---
+
+## **6️⃣ Integration with Active Directory (AD)**
+- **Sync Users & Groups from AD** → Ensures only authorized employees have access.
+- **Role-Based Access Control (RBAC)** → Restricts what users & technicians can do.
+- **SSO Integration** → Users log in with corporate credentials.
+
+---
+
+### **📌 Summary**
+✅ **End Users** use the portal for tickets & requests.  
+✅ **Technicians** work on incidents & requests.  
+✅ **Managers & Approvers** handle escalations and approvals.  
+✅ **Admins** control system configurations.  
+
+Would you like specific automation workflows or role configurations for your setup? 🚀
